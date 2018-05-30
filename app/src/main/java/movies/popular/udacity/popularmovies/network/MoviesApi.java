@@ -17,7 +17,6 @@ public interface MoviesApi {
 
     @GET("/3/movie/{sort}")
     Call<ResultsFromJson> getMovies(@Path("sort") String sortOrder,
-                                    @Query("api_key") String apiKey,
-                                    @Query("page") int page);
+                                    @Query("api_key") String apiKey);
 
 }
