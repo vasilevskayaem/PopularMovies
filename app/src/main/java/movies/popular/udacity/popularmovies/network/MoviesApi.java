@@ -14,6 +14,7 @@ public interface MoviesApi {
     public String API_KEY = "API_KEY";
     public String SORT_ORDER_POPULAR = "popular";
     public String SORT_ORDER_RATED = "top_rated";
+    public static final String IMAGE_URL = "http://image.tmdb.org/t/p/w185/";
 
     @GET("/3/movie/{sort}")
     Call<ResultsFromJson> getMovies(@Path("sort") String sortOrder,

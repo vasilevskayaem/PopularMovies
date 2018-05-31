@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="movies.popular.udacity.popularmovies.DetailsActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/settings_elements_paddings"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/movies_poster"
+            android:layout_width="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_height="@dimen/poster_heigth"
+            android:paddingLeft="@dimen/settings_elements_paddings"
+            android:paddingRight="@dimen/settings_elements_paddings"
+            android:layout_marginBottom="@dimen/settings_elements_paddings" />
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/settings_elements_paddings"
+            android:paddingRight="@dimen/settings_elements_paddings"
+            android:layout_marginBottom="@dimen/settings_elements_paddings"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/settings_elements_paddings"
+            android:paddingRight="@dimen/settings_elements_paddings"
+            android:layout_marginBottom="@dimen/settings_elements_paddings"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/settings_elements_paddings"
+            android:paddingRight="@dimen/settings_elements_paddings"
+            android:layout_marginBottom="@dimen/settings_elements_paddings"
+            android:text="TextView" />
+    </LinearLayout>
+
+
+</ScrollView>

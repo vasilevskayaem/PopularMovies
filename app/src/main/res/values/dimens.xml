@@ -1,4 +1,5 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="settings_elements_paddings">24dp</dimen>
+    <dimen name="poster_heigth">300dp</dimen>
 </resources>
